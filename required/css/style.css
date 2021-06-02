@@ -1,0 +1,128 @@
+:root {
+    --firstColor: #0288d1;
+    --secondColor: #40a9ff;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fdfdfd;
+    color: #000;
+}
+
+p {
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.row{
+    justify-content: center !important;
+    align-items: center;
+}
+
+a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 100%;
+}
+
+table th {
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: var(--firstColor);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table td {
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #555;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.text-btn {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-btn:hover {
+    background-color: white;
+    text-decoration: none;
+    color: var(--firstColor);
+}
+
+.center-div {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-card {
+    margin: auto;
+    text-align: center;
+    min-width: 400px;
+    padding: 20px;
+    background-color: var(--firstColor);
+    border-radius: 20px;
+}
+
+.page-links {
+    display: block;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: var(--firstColor);
+    text-transform: uppercase;
+}
+
+.page-links:hover {
+    background-color: var(--secondColor);
+    color: white;
+    text-decoration: none;
+}
+
+.page-heading {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: var(--firstColor);
+    border-bottom: 2px dotted var(--firstColor);
+}
+
+.custom-form{
+    margin-top: 40px;
+}
+
+.form-group{
+    margin: 10px;
+}
